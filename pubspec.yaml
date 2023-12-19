@@ -1,0 +1,33 @@
+name: task
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get:
+  flutter:
+    sdk: flutter
+  hive_flutter:
+  logging:
+  flutter_secure_storage:
+  uni_links:
+  share_plus: 7.2.1
+  freezed_annotation:
+  connectivity_plus:
+  dio:
+  dio_smart_retry:
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  build_runner:
+  freezed:
+  hive_generator:
+  json_serializable:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
